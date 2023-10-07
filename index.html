@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        header {
+            background-color: #000;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-logo {
+            color: #e50914;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-menu {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .navbar-menu li {
+            margin-right: 1.5rem;
+        }
+
+        .navbar-menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .movie-card {
+            width: 200px;
+            margin: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+
+        .movie-info {
+            padding: 0.5rem;
+        }
+
+        .movie-title {
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+
+        .movie-description {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar-left">
+            <span class="navbar-logo">Netflix</span>
+            <ul class="navbar-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Recently Added</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <a href="#"><img src="https://via.placeholder.com/30" alt="Search"></a>
+            <a href="#"><img src="https://via.placeholder.com/30" alt="Notification"></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Row 1 -->
+        <div class="movie-container">
+            <!-- Sample Movie Cards - Row 1 -->
+            <!-- Add your own images, titles, and descriptions here -->
+            <div class="movie-card">
+                <img src="After.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">After</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Avengers.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Avengers Endgame</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Avengers Infinity.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Avengers Infinity War</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Freedom.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Freedom</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Avengers Infinity.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Avengers Game of Thrones</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <!-- Add more movie cards as needed -->
+        </div>
+
+        <!-- Row 2 -->
+        <div class="movie-container">
+            <!-- Sample Movie Cards - Row 2 -->
+            <!-- Add your own images, titles, and descriptions here -->
+            <div class="movie-card">
+                <img src="Devdas.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Devdas</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Chennai Express.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Chennai Express</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Hum.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Hum Dil De chuke Sanam</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Bhoot Police.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Bhoot Police</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Masaan.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Mashaan</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="movie-container">
+            <!-- Sample Movie Cards - Row 3 -->
+            <!-- Add your own images, titles, and descriptions here -->
+            <div class="movie-card">
+                <img src="Highway.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Highway</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Pushpa.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Pushpa</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="RRR.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">RRR</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Darbaar.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">Darbar</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="Red.jpg" alt="Movie 1">
+                <div class="movie-info">
+                    <h3 class="movie-title">RED</h3>
+                    <p class="movie-description">Description of Movie 1.</p>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
